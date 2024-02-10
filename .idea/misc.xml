@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_7_R4/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_8_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_8_R2/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_8_R3/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_9_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_9_R2/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_10_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_11_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_12_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_13_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_13_R2/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_14_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_15_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_16_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_16_R2/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_16_R3/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_17_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-1_14_4_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.wesjd/anvilgui-abstraction/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/me.gatligator/PersonalKits/pom.xml" />
+      </list>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

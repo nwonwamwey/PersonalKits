@@ -1,0 +1,52 @@
+name: PersonalKits
+version: 1.0
+main: me.gatligator.personalkits.Main
+api-version: 1.13
+
+commands:
+  personalkits:
+    description: <required> [optional]
+    usage: /<command> <reload> [file]
+    aliases: pk
+    permission: personalkits.*
+  kit:
+    description: <required> [optional], no arguments -> open player's kit menu
+    usage: /<command> [kitname]
+    aliases: k
+    permission: personalkits.kit
+  kit1:
+    description: Loads kit1
+    usage: /<command>
+    aliases: k1
+    permission: personalkits.kit
+  kit2:
+    description: Loads kit2
+    usage: /<command>
+    aliases: k2
+    permission: personalkits.kit
+  kit3:
+    description: Loads kit3
+    usage: /<command>
+    aliases: k3
+    permission: personalkits.kit
+
+permissions:
+  personalkits.*:
+    description: Access to all PersonalKits permissions
+    children:
+      personalkits.kit: true
+      personalkits.edit: true
+      personalkits.reload: true
+  personalkits.kit:
+    description: Basic kit commands
+    default: true
+  personalkits.edit:
+    description: Ability to edit
+    default: op
+  personalkits.reload:
+    default: op
+
+
+
+
+

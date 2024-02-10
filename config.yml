@@ -1,0 +1,54 @@
+#PERSONALKITS CONFIG
+#Current sections: messages
+#Planned features:
+#regional broadcasts (worldguard integration)
+#kit sharing
+
+#set <message>-enabled to true or false
+###MESSAGES###:
+
+#__________________________________________________________________________________________
+
+#what should be broadcasted when a player performs a given action.
+#BROADCASTED MESSAGES:
+
+#an intermittent broadcast.
+scheduled-broadcast-enabled: true
+scheduled-broadcast:
+  - '§7[§5§lP§d§lK§7] §dtype §b/kit §dor §b/k §dto get started.'
+#the period of time between each broadcast, given in ticks (there are 20 ticks in 1 second)
+scheduled-broadcast-period: 18000.0
+
+#the message broadcasted when a player loads a kit. format: <loadkit-prefix> <player name> <loadkit-suffix> (can leave prefix or suffix blank)
+#ex: [PersonalKits] Gatligator loaded a kit.
+loadkit-enabled: true
+loadkit-prefix: '§7[§5§lP§d§lK§7] '
+loadkit-suffix: ' §7loaded a kit.'
+#loadkit-public format: <prefix> <player who loaded a kit> <root> <player whose kit was loaded> <suffix>
+loadkit-public-prefix: '§7[§5§lP§d§lK§7] '
+loadkit-public-root: ' §7loaded '
+loadkit-public-suffix: '§7''s kit.'
+
+open-kitroom-enabled: true
+open-kitroom-prefix: '§7[§5§lP§d§lK§7] '
+open-kitroom-suffix: ' §7opened the Virtual Kit Room.'
+
+open-publickits-enabled: false
+open-publickits-prefix: '§7[§5§lP§d§lK§7] '
+open-publickits-suffix: ' §7opened the Public Kits Menu.'
+
+#__________________________________________________________________________________________
+
+#what is messaged to the player when they perform a given action.
+#PLAYER MESSAGES:
+
+#messaged to a player when they log in.
+motd-enabled: true
+motd:
+  - '§7-------------- §b| §dPersonal Kits §b| §7--------------'
+  - '§dtype §b/kit §dor §b/k §dto get started.'
+  - '§7------------------------------------------'
+#how long to wait before sending the message after the player joins.
+motd-delay: 5
+
+#__________________________________________________________________________________________
